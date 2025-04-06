@@ -70,7 +70,7 @@ Key technologies used:
    npm run dev     
 4. Open the application in your browser
 
-###Usage
+Usage
 Uploading an MRI Scan
 Navigate to the "Analysis" page.
 Upload an MRI scan file.
@@ -80,5 +80,5 @@ Visit the "Research" page to access publications and datasets.
 Visit the "Documentation" page for technical guides and API references.
 
 
-##Thank you for using NeuralScan Hub! We hope this platform empowers you to make meaningful contributions to the field of medical research. If you find this project useful, please consider giving it a ⭐ on GitHub!
+Thank you for using NeuralScan Hub! We hope this platform empowers you to make meaningful contributions to the field of medical research. If you find this project useful, please consider giving it a ⭐ on GitHub!
 
