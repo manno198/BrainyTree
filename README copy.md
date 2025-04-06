@@ -1,69 +1,83 @@
-# Welcome to your Lovable project
+# NeuralScan Hub
 
-## Project info
+<p align="center">
+  <img src="https://via.placeholder.com/150" alt="NeuralScan Logo" width="150"/>
+</p>
 
-**URL**: https://lovable.dev/projects/741a97a6-64a2-4446-8b67-778784086103
+<p align="center">
+  <strong>Advanced AI-powered brain tumor detection platform for medical professionals and researchers.</strong>
+</p>
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Table of Contents
 
-**Use Lovable**
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/741a97a6-64a2-4446-8b67-778784086103) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Overview
 
-**Use your preferred IDE**
+NeuralScan Hub is a cutting-edge platform designed to assist medical professionals and researchers in detecting brain tumors using AI-powered analysis of MRI scans. The platform provides real-time predictions, detailed insights, and tools for research and documentation.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Key technologies used:
+- **Frontend**: React (TypeScript), Tailwind CSS, Vite
+- **State Management**: React Query
+- **Routing**: React Router
+- **AI Integration**: Custom AI models for brain tumor detection
+- **Deployment**: Netlify
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **MRI Analysis**: Upload MRI scans and receive AI-generated predictions.
+- **Research Tools**: Access research papers, datasets, and AI-related resources.
+- **Documentation**: Comprehensive guides and API references for developers.
+- **Privacy-Focused**: No personal data is stored; uploaded images are processed temporarily.
+- **Responsive Design**: Fully responsive UI for desktop and mobile devices.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Prerequisites
 
-**Edit a file directly in GitHub**
+- Node.js (v16 or higher)
+- npm or yarn
+- Git
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Steps
 
-**Use GitHub Codespaces**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/neuralscan-hub.git
+   cd neuralscan-hub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Install dependencies
+  ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   npm run dev     
+4. Open the application in your browser
 
-## What technologies are used for this project?
+###Usage
+Uploading an MRI Scan
+Navigate to the "Analysis" page.
+Upload an MRI scan file.
+View the AI-generated prediction and detailed insights.
+Exploring Research and Documentation
+Visit the "Research" page to access publications and datasets.
+Visit the "Documentation" page for technical guides and API references.
 
-This project is built with .
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Thank you for using NeuralScan Hub! We hope this platform empowers you to make meaningful contributions to the field of medical research. If you find this project useful, please consider giving it a ⭐ on GitHub!
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/741a97a6-64a2-4446-8b67-778784086103) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
