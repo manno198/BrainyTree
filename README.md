@@ -13,11 +13,6 @@
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
-
 ---
 
 ## Overview
@@ -67,7 +62,7 @@ Key technologies used:
    npm run dev     
 4. Open the application in your browser
 
-Usage
+## Usage
 Uploading an MRI Scan
 Navigate to the "Analysis" page.
 Upload an MRI scan file.
