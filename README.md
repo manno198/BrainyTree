@@ -1,8 +1,5 @@
 # NeuralScan Hub
 
-<p align="center">
-  <img src="https://via.placeholder.com/150" alt="NeuralScan Logo" width="150"/>
-</p>
 
 <p align="center">
   <strong>Advanced AI-powered brain tumor detection platform for medical professionals and researchers.</strong>
