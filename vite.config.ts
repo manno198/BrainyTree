@@ -8,6 +8,8 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 3000,
+    
+    allowedHosts: ["brainytree.onrender.com"],
   },
   plugins: [
     react(),
